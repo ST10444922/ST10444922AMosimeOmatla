@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/petImageView"
+        android:layout_width="396dp"
+        android:layout_height="281dp"
+        app:srcCompat="@drawable/jack_russell"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/feedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hunger"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="465dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="536dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cleanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="623dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/feedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed"
+        android:textSize="16sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="16sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="304dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/cleanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean"
+        android:textSize="16sp"
+        android:typeface="serif"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="302dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
